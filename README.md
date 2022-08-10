@@ -106,3 +106,13 @@
         "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
     }
     ```
+
+8. 发布
+
+    ```node
+    yarn publish
+    ```
+
+# 参考资料
+
++ [创建一个 TypeScript/TS 的 NPM/npm 包](https://blog.csdn.net/YopenLang/article/details/125729150)
