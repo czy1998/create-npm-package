@@ -2,7 +2,7 @@
 
 > 只有在 files 数组中的文件才会被 publish 到 npm 上
 
-```json
+```js
     // 会在项目、发布，还有本地 npm install 之前执行
     "prepare": "npm run build",
     // 会在 prepare 脚本之前以及 npm publish运行过程中执行
@@ -80,7 +80,7 @@
 
 5. 添加 `prettierrc` 配置文件
 
-    ```json
+    ```js
     singleQuote: true, // 使用单引号而不是双引号。默认 false
     semi: false, // 句尾添加分号。默认 true
     tabWidth: 4, // 指定每个缩进级别的空格数。默认 2
